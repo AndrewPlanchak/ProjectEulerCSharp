@@ -4,7 +4,7 @@ var watch = new System.Diagnostics.Stopwatch();
 
 watch.Start();
 
-Problem0001.run();
+Problem0010.run();
 
 watch.Stop();
 
