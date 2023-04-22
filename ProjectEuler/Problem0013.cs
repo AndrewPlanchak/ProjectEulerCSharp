@@ -13,7 +13,7 @@ namespace ProjectEuler
         {
             BigInteger i = 0;
 
-            StreamReader sr = new StreamReader(@"C:\Users\andyp\source\repos\Project Euler\Project Euler\problem0013.txt");
+            StreamReader sr = new StreamReader(@"C:\Users\andyp\source\repos\ProjectEuler\ProjectEuler\Problem13.txt");
 
             while (!sr.EndOfStream)
             {
