@@ -16,6 +16,6 @@ namespace ProjectEuler
                 if (UsefulMethods.isPrime(i) == true) total += i;
             }
             Console.WriteLine(total);
-        } //NEEDS FIX - EXPECTED RESULT 142913828922
+        } 
     }
 }
