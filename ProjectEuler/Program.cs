@@ -6,7 +6,7 @@ var watch = new Stopwatch();
 
 watch.Start();
 
-Problem0011.run();
+Problem0022.run();
 
 watch.Stop();
 
