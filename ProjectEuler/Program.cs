@@ -1,11 +1,17 @@
-﻿using ProjectEuler;
+﻿using System.Diagnostics;
 
-var watch = new System.Diagnostics.Stopwatch();
+using ProjectEuler;
+
+var watch = new Stopwatch();
 
 watch.Start();
 
-Problem0010.run();
+Problem0011.run();
 
 watch.Stop();
 
-Console.WriteLine($"Execution Time: " + watch + "ms");
+TimeSpan ts = watch.Elapsed;
+
+string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds);
+
+Console.WriteLine($"Execution Time: " + elapsedTime);
